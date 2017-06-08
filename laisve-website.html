@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Laisvė's personal website</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <style type="text/css">
+        * {
+            font-family: Tahoma;
+            font-size: 20px;
+        }
+        #mycarousel img{
+            display: none;
+        }
+        #main {
+            text-align: center;
+        }
+        #main-text {
+            font-family: Calibri Tahoma sans-serif;
+        }
+        #main-text h1 {
+            font-size: 7em;
+        }
+        #main-text p {
+            font-size: 1.5em;
+        }
+        #education {
+        
+        }
+        .portfolio-item {
+            margin: 0 0 30px;
+        }
+        .portfolio-item img {
+            max-height: 275px;
+            width: auto;
+            margin: 0 auto;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            font-size: 10px;
+            text-align: center;
+        }
+     
+    </style>
+</head>
+<body>
+    <nav id="mainNav" class="navbar navbar-inverse navbar-fixed-top navbar-custom affix-top">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars" color="white"></i>
+                </button>
+                <a class="navbar-brand" href="#mycarousel">Laisvė Lideikytė</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden active">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#education">Education</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#skills">Skills</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#photography">Photography</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#contact">Contact</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#projects">Projects</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="mycarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="DSC00435.jpg" id="main-image" class="img-responsive">
+                <div class="carousel-caption" id="main-text">
+                    <h1>Laisvė Lideikytė</h1>
+                    <hr>
+                    <p>I am a biologist, amateur photographer, (occasionally) stargazer and a trainee web developer.</p>
+               </div>
+            </div>
+        </div>
+    </div>
+    <section id="education">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Education</h2>
+                    <p>I have gained my MSc in Biology/Genetics in Vilnius University, Lithuania. I finished my Master's degree in Lithuanian University of Agriculture, and did my PhD work in Lithuanian Institute of Agriculture, Akademija, Kėdainiai district. I have worked in plant genetics, investigating hybrid plants.</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row" id="skills">
+                <div class="col-lg-12">
+                    <h2>Skills</h2>
+                    <p>My skills include laboratory skills in genetics/biotechnology. But I also have photography skills - this is my main hobby. And now, I am gaining skills in web development. This website is the test of my new skills.</p>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </section>
+    <section id="photography">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Photography</h2>
+                    <p>Click on images to see alternative pictures</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <img src="photos/82340013.jpg" class="img-responsive" alt="Mountain" alt-img="photos/F1070011.jpg" >
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <img src="photos/F1070031.jpg" class="img-responsive" alt="Sunset" alt-img="photos/F1070034.jpg">
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <img src="photos/F1070018.jpg" class="img-responsive" alt="Bridge" alt-img="photos/DSC00461.jpg">
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <img src="photos/DSC07270.jpg" class="img-responsive" alt="Tower" alt="Town" alt-img="photos/DSC07274.jpg">
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <img src="photos/DSC00496.jpg" class="img-responsive" alt="Stones" alt-img="photos/DSC07151.jpg">
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <img src="photos/DSC00680.jpg" class="img-responsive" alt="Church" alt-img="photos/DSC07139.jpg">
+                </div>
+            </div>
+        </div>
+        <hr>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Projects</h2>
+                    <p>At present, I am going to contribute to a website creation in my web development studies.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="footer-col col-lg-12" style="text-align: center;">
+                    <a href="#mycarousel"><span class="glyphicon glyphicon-chevron-up"></span></a>  
+                </div>
+            </div>
+        </div>
+        <hr>
+    </section>
+    <footer>
+        <div class="footer-above" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-lg-12">
+                        <h3>Address</h3>
+                        <p> Taikos 20-71 Vilnius Lithuania</p>
+                    </div>
+                    <hr>
+                    <div class="footer-col col-lg-12">
+                        <h3>Email</h3>
+                        <p>baltoji@yahoo.com</p>
+                    </div>
+                    <div class="footer-col col-lg-12">
+                        <h3>Phone</h3>
+                        <p>+370 67810504</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#mycarousel img').slideDown(2000);
+            $('.portfolio-item img').click(function() {
+                var src = $(this).attr('alt-img');
+                $(this).attr("src", src);
+            });
+        })
+     </script>
+</body>
+</html>
